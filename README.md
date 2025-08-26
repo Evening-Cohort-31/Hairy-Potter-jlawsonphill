@@ -120,12 +120,12 @@ In the `main.js` module, invoke the `PotteryList` component function. Take its r
 > 🧨 Before you click the "Assessment Complete" button on the Learning Platform, add your answers below for each question and make a commit. It is your option to request a face-to-face meeting with a coach for a vocabulary review.
 
 1. Explain how you got the HTML, with the correct data, displayed in the browser?
-   > Your answer here
+   > I created functions to iterate through data, such as properties of an object, to filter out and add more properties. Finally, I added these objects to an array, copied the array, and used each object in the array to loop through and generate an HTML string based on the unique properties of each object.
 2. In the **PotteryList** module, when you iterate your pottery, you need to show the evidence of what the **weight** property's value is for the 2nd piece of pottery. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here
+   > https://www.loom.com/share/3c4af1522d6f4639bd0aae792800d1fe?sid=c9210943-1a33-43c0-90e6-404ec0f0c5fb
 3. The **PotteryWheel** module has a single function named `makePottery`. Why doesn't that module have all of the other code in it?
-   > Your answer here
+   >    There are a few different reasons for this. Some of them include: it makes it easier to read your code and understand which module is responsible for what, and it also makes your code more modular, allowing you to use its components more generically. Additionally, it also allows for work  to be divided among different groups.
 4. The pottery shop has learned that there is a set of customers that are willing to buy cracked pottery at a discounted price of $2.50. That means that the cracked pottery should now be displayed in the catalog. Explain the changes that this new business strategy would cause to your algorithm.
-   > Your answer here
+      PotteryCatalog.js would be the main thing affected. It would need to add an else statement for if pottery.cracked === true then pottery.price = 20 and push them to the array toBeSold. The name of the array may need to be changed since now all objects would be sold unless more restrictions are put in place for a different or new property. I would also probably want to add a key to the objects for isCracked and display that information on the website by changing some of the HTML.
 5. In the **Kiln** module, you have a `firePottery()` function. You need to demonstrate how to use the debugger to verify the values of the parameters for that function when your code runs. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here
+   > https://www.loom.com/share/4aeacb58105440919ecd1a8c62d56bcc?sid=a92e46b6-0ccd-429a-a5e1-0902d1661c07
